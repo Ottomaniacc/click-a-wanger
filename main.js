@@ -35,7 +35,7 @@ function myFunction(){
     } else if (scoreValue.score == 101){
         rank.innerHTML = "wagner"
         alert('omg you won wow')
-        location.reload()
+        scoreValue.score = 0;
     }
 
 
