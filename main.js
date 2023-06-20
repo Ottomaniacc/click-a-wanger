@@ -32,8 +32,9 @@ function myFunction(){
         rank.innerHTML = "reshalla"
     } else if (scoreValue.score == 80){
         rank.innerHTML = "retard nigga penis"
-    } else if (scoreValue.score == 101){
+    } else if (scoreValue.score == 100){
         rank.innerHTML = "wagner"
+    } else if (scoreValue.score == 101){
         alert('omg you won wow')
         scoreValue.score = 0;
     }
